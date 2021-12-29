@@ -11,7 +11,7 @@ namespace AdminPortal.Controllers
         [HttpGet]
         public IActionResult GetRecord()
         {
-            return Ok("Hello Admin Portal");
+            return Ok("Hello Admin Portal. This is okay");
         }
     }
 }
